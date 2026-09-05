@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deals Admin</title><link rel="stylesheet" href="style.css"></head>
+<body class="admin-body">
+<header class="topbar"><div class="brand"><div class="logo">D</div><div><h1>Deals Admin</h1><span>Manage products from your phone</span></div></div><a class="back-link" href="index.html">← Website</a></header>
+<main class="admin-wrap">
+<section class="admin-card">
+<h2>GitHub connection</h2><p class="muted">Your token stays in this browser's local storage and is sent only to GitHub. Never put it in your website code.</p>
+<div class="form-grid">
+<label>GitHub username<input id="owner" placeholder="your-username"></label>
+<label>Repository<input id="repo" placeholder="deals-of-the-day"></label>
+<label>Branch<input id="branch" value="main"></label>
+<label>GitHub token<input id="token" type="password" placeholder="ghp_... or github_pat_..."></label>
+</div>
+<div class="actions"><button class="primary" onclick="saveSettings()">Save connection</button><button onclick="clearSettings()">Clear saved connection</button></div>
+<p id="status" class="status"></p>
+</section>
+<section class="admin-card">
+<div class="admin-heading"><div><h2>Products</h2><p class="muted">Add or edit a deal, then publish it to GitHub.</p></div><button class="primary" onclick="newProduct()">＋ Add product</button></div>
+<div id="editor"></div>
+</section>
+</main>
+<script src="admin.js"></script></body></html>

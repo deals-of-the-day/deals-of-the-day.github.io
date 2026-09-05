@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Example Wireless Earbuds",
+    "category": "Electronics",
+    "price": "₹999",
+    "rating": "⭐ 4.3",
+    "platform": "Amazon",
+    "emoji": "🎧",
+    "image": "",
+    "url": "https://www.amazon.in/"
+  },
+  {
+    "name": "Example Smart Watch",
+    "category": "Electronics",
+    "price": "₹1,499",
+    "rating": "⭐ 4.4",
+    "platform": "Flipkart",
+    "emoji": "⌚",
+    "image": "",
+    "url": "https://www.flipkart.com/"
+  },
+  {
+    "name": "Example Home Organizer",
+    "category": "Home",
+    "price": "₹399",
+    "rating": "⭐ 4.2",
+    "platform": "Amazon",
+    "emoji": "🏠",
+    "image": "",
+    "url": "https://www.amazon.in/"
+  },
+  {
+    "name": "Example Casual T-Shirt",
+    "category": "Fashion",
+    "price": "₹499",
+    "rating": "⭐ 4.1",
+    "platform": "Meesho",
+    "emoji": "👕",
+    "image": "",
+    "url": "https://www.meesho.com/"
+  },
+  {
+    "name": "Example Desk Lamp",
+    "category": "Home",
+    "price": "₹699",
+    "rating": "⭐ 4.5",
+    "platform": "Amazon",
+    "emoji": "💡",
+    "image": "",
+    "url": "https://www.amazon.in/"
+  },
+  {
+    "name": "Example Beauty Kit",
+    "category": "Beauty",
+    "price": "₹599",
+    "rating": "⭐ 4.3",
+    "platform": "Flipkart",
+    "emoji": "✨",
+    "image": "",
+    "url": "https://www.flipkart.com/"
+  }
+]
