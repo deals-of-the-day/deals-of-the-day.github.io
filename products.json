@@ -1,15 +1,5 @@
 [
   {
-    "name": "Example Wireless Earbuds",
-    "category": "Electronics",
-    "price": "₹999",
-    "rating": "⭐ 4.3",
-    "platform": "Amazon",
-    "emoji": "🎧",
-    "image": "",
-    "url": "https://www.amazon.in/"
-  },
-  {
     "name": "Example Smart Watch",
     "category": "Electronics",
     "price": "₹1,499",
